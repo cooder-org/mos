@@ -64,10 +64,7 @@ interface IDisk {
 - 抽象分层是否优雅
 - 代码实现是否简洁
 
-## 参考环境
-```shell
-ssh 10.33.68.27 -p 2022
-```
+## 功能参考
 ![./docs/demo.gif](./docs/demo.gif)
 
 ## 参考lib
