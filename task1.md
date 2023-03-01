@@ -25,14 +25,18 @@ interface IDisk {
     void writeSector(int sectorIdx, byte[] sectorData);
 
    /**
-     * 磁盘每个扇区的大小
+     * 磁盘每个扇区的大小，固定为512字节
      */
-    int sectorSize();
+    default int sectorSize() {
+      return 512;
+    }
 
     /**
-     * 磁盘扇区数量
+     * 磁盘扇区数量，固定为 2G/512
      */
-    int sectorCount();
+    default int sectorCount() {
+      return 2 * 1024 * 1024 * 1024L / 512;
+    }
 }
 ```
 - 基于以上模拟磁盘，实现文件系统FAT16X（文档参考`设计文档`一节）
