@@ -119,7 +119,7 @@ File Allocation Table 是一个链表结构，结构如下图所示：
 
 ## Root Directory
 
-Root Directory 区域保存了所有根目录下的文件/文件夹条目信息。根据 Boot Sector 中的配置，最多有 512 个。
+Root Directory 区域保存了所有根目录下的文件/文件夹条目信息。根据 Boot Sector 中的配置，最多有 1008 个。
 
 这些条目被称为 directory entry structure，每个占用 32 bytes，结构如下：
 
