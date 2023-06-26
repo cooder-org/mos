@@ -29,3 +29,7 @@
 
 ## 功能参考
 ![./docs/demo3.gif](./docs/demo3.gif)
+
+## 参考资料
+- [Go进阶52:开发扩展SSH的使用领域和功能](https://mojotv.cn/golang/ssh-pty-im)
+- [SCP in mina-sshd](https://github.com/apache/mina-sshd/blob/master/docs/scp.md)
