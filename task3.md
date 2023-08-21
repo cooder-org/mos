@@ -7,7 +7,7 @@
 ## 任务描述
 - 对任务二的codebase打个tag，命名为`tag-task2`
 - 继续实现[VFATX](./docs/vfat-long-file-names-spec.md)以支持长文件名
-- 支持`scp`命令传输文件到模拟文件系统中
+- 支持`scp`命令传输文件到模拟文件系统中或从模拟文件系统中传输文件到本地
 - 支持管道，并实现简易的`grep`命令以验证管道功能, 如`ls | grep ".txt"`
 
 ## 交付物
